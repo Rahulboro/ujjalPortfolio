@@ -1,4 +1,12 @@
+@media screen and (min-width: 1400px) {
+  .scroll-down-image{
+    display: none;
+  }
+}
 @media screen and (max-width: 1400px) {
+  .scroll-right-image{
+    display: none;
+  }
   #profile {
     height: fit-content;
     height: calc(83vh);
@@ -12,6 +20,12 @@
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
+  }
+  .scroll-right-image{
+    display: none;
+  }
+  .scroll-down-image{
+    display: block;
   }
   #experience,
   .experience-details-container {
@@ -43,6 +57,15 @@
   #contact,
   footer {
     height: 40vh;
+  }
+  .scroll-right-image{
+    display: none;
+  }
+  .scroll-down-image{
+    display: block;
+  }
+  .scroll-image{
+    display: none;
   }
   #profile {
     height: 83vh;
